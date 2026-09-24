@@ -15,3 +15,10 @@ for (int i = 0;i < 5;i++)
 }
 
 double atlag = ossz / 5.0;
+
+string statusz;
+
+if (atlag >= 10000) statusz = "Kiváló forma, teljesítetted a célt!";
+else if (atlag >= 7000) statusz = "Átlagos aktivitás, jó úton jársz.";
+else statusz = "Kevés mozgás, több aktivitás szükséges!";
+
